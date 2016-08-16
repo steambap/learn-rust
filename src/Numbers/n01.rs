@@ -15,7 +15,7 @@ pub fn get_pi(size: i32) -> String {
 
 #[cfg(test)]
 mod tests {
-	use super::*;
+	use super::get_pi;
 
 	#[test]
 	fn get_pi_works() {
